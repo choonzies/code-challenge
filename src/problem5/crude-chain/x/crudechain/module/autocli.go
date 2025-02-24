@@ -25,9 +25,9 @@ func (am AppModule) AutoCLIOptions() *autocliv1.ModuleOptions {
 				},
 
 				{
-					RpcMethod: "ListPost",
-					Use: "list-post",
-					Short: "Query list-post",
+					RpcMethod:      "ListPost",
+					Use:            "list-post",
+					Short:          "Query list-post",
 					PositionalArgs: []*autocliv1.PositionalArgDescriptor{},
 				},
 
